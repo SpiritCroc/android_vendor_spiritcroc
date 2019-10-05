@@ -6,3 +6,7 @@ PRODUCT_COPY_FILES += \
 
 # Extra overlays
 PRODUCT_PACKAGE_OVERLAYS += $(VENDOR_EXTRA_PATH)/overlay/common
+
+# Hosts file
+PRODUCT_COPY_FILES += \
+    $(VENDOR_EXTRA_PATH)/prebuilt/system/etc/hosts:system/etc/hosts
