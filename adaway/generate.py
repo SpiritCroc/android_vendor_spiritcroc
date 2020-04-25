@@ -51,4 +51,4 @@ if __name__ == "__main__":
         for redirect in redirects:
             if redirect[1] == "localhost":
                 continue
-            fout.write("{} {}\n".format(redirect[0], redirect[1]))
+            fout.write("127.0.0.1 {}\n".format(redirect[1]))
