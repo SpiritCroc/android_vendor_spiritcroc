@@ -3,6 +3,8 @@
 <resources>
 
     <!-- Enable lockscreen rotation by default -->
+    <!--
     <bool name="config_enableLockScreenRotation">true</bool>
+    -->
 
 </resources>
