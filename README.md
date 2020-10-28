@@ -13,6 +13,9 @@ Custom ROMs like AICP or LineageOS will automatically call it if they find it in
 - Include FDroid privileged extension and AuroraServices
     - Builders: you'll need to add something to your local manifest like
         ```
-        <project name="MSe1969/android_prebuilts_prebuiltapks" path="vendor/prebuiltapks" remote="github" revision="master" />
+        <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+        <project path="packages/apps/F-DroidPrivilegedExtension"
+               name="privileged-extension.git" remote="fdroid"
+               revision="refs/tags/0.2.11" />
         <project name="MSe1969/AuroraStore-prebuilt" path="vendor/AuroraStore-prebuilt" remote="github" revision="master" />
         ```
