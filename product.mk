@@ -1,13 +1,17 @@
 VENDOR_EXTRA_PATH := vendor/extra
 
 # Custom bootanimation
-PRODUCT_COPY_FILES += \
-    $(VENDOR_EXTRA_PATH)/bootanimation/bootanimation.zip:system/product/media/bootanimation.zip
+TARGET_BOOTANIMATION := $(VENDOR_EXTRA_PATH)/bootanimation/bootanimation.zip
 
 # Extra overlays
 PRODUCT_PACKAGE_OVERLAYS += $(VENDOR_EXTRA_PATH)/overlay/common
 
-# Play Store alternatives system integrations
+# Play Store alternatives system integrations from omni prebuilts
 PRODUCT_PACKAGES += \
-    F-DroidPrivilegedExtension \
-    AuroraServices
+    AuroraServices \
+    AuroraStore \
+    FDroid \
+    FDroidPrivilegedExtension
+
+# MicroG from omni prebuilts
+$(call inherit-product-if-exists, vendor/prebuiltapks/microg.mk)
