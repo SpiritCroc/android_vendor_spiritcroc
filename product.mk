@@ -9,9 +9,7 @@ PRODUCT_PACKAGE_OVERLAYS += $(VENDOR_EXTRA_PATH)/overlay/common
 # Play Store alternatives system integrations from omni prebuilts
 PRODUCT_PACKAGES += \
     AuroraServices \
-    AuroraStore \
-    FDroid \
-    FDroidPrivilegedExtension
+	F-DroidPrivilegedExtension
 
 # MicroG from omni prebuilts
 $(call inherit-product-if-exists, vendor/prebuiltapks/microg.mk)
