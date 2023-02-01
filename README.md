@@ -19,3 +19,5 @@ Custom ROMs like AICP or LineageOS will automatically call it if they find it in
         <project name="MSe1969/AuroraStore-prebuilt" path="vendor/AuroraStore-prebuilt" remote="github" revision="master" />
         <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
         ```
+- Custom additional F-Droid repositories
+    - Notes to self: [paths](https://gitlab.com/fdroid/fdroidclient/-/blob/475df6f513463d2b253b3c76ee9c076bcba3b832/app/src/main/java/org/fdroid/fdroid/data/DBHelper.java#L170), [avoid duplicate target names](https://android.googlesource.com/platform/build/+/749062d379a88d290adc5bcd686d98083810079e/Changes.md)

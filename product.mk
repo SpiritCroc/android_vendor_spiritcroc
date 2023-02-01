@@ -19,3 +19,7 @@ PRODUCT_PACKAGES += \
 	IchnaeaNlpBackend \
 	NominatimGeocoderBackend \
 	additional_repos.xml
+
+# SC additional F-Droid repos
+PRODUCT_PACKAGES += \
+	additional_sc_repos
