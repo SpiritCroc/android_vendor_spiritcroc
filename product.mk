@@ -11,11 +11,11 @@ PRODUCT_PACKAGES += \
     AuroraServices \
 	F-DroidPrivilegedExtension
 
-# MicroG from omni prebuilts
+# MicroG
 PRODUCT_PACKAGES += \
-    FakeStore \
     GmsCore \
     GsfProxy \
-    microg-a5k.xml \
-    MozillaNlpBackend \
-    NominatimNlpBackend
+    FakeStore \
+	IchnaeaNlpBackend \
+	NominatimGeocoderBackend \
+	additional_repos.xml
