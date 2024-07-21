@@ -8,7 +8,6 @@ PRODUCT_PACKAGE_OVERLAYS += $(VENDOR_EXTRA_PATH)/overlay/common
 
 # Play Store alternatives system integrations
 PRODUCT_PACKAGES += \
-    AuroraServices2 \
 	F-DroidPrivilegedExtension
 
 # MicroG
