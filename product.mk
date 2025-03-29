@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
 	F-DroidPrivilegedExtension
 
 # MicroG
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     GmsCore \
     GsfProxy \
     FakeStore \
