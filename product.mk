@@ -22,3 +22,7 @@ PRODUCT_PACKAGES += \
 # SC additional F-Droid repos
 PRODUCT_PACKAGES += \
 	additional_sc_repos
+
+# Just build it if it exists, don't ask
+PRODUCT_PACKAGES += \
+	AicpExtras
