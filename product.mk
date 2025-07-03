@@ -7,11 +7,11 @@ TARGET_BOOTANIMATION := $(VENDOR_EXTRA_PATH)/bootanimation/bootanimation.zip
 PRODUCT_PACKAGE_OVERLAYS += $(VENDOR_EXTRA_PATH)/overlay/common
 
 # Play Store alternatives system integrations
-PRODUCT_PACKAGES += \
-	F-DroidPrivilegedExtension
+#PRODUCT_PACKAGES += \
+#	F-DroidPrivilegedExtension
 
 # MicroG
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     GmsCore \
     GsfProxy \
     FakeStore \
