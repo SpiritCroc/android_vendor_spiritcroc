@@ -15,8 +15,6 @@ PRODUCT_PACKAGES += \
     GmsCore \
     GsfProxy \
     FakeStore \
-	IchnaeaNlpBackend \
-	NominatimGeocoderBackend \
 	additional_repos.xml
 
 # SC additional F-Droid repos
